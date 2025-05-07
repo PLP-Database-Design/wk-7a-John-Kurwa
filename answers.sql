@@ -1,11 +1,11 @@
 -- First Normal Form
-CREATE TABLE ProductDetail_1 (
+CREATE TABLE ProductDetail_2 (
     OrderID INT,
     CustomerName VARCHAR(100),
     Product VARCHAR(100)
 );
 
-INSERT INTO ProductDetail_1 (OrderID, CustomerName, Product) VALUES
+INSERT INTO ProductDetail_2 (OrderID, CustomerName, Product) VALUES
 (101, 'John Doe', 'Laptop'),
 (101, 'John Doe', 'Mouse'),
 (102, 'Jane Smith', 'Tablet'),
